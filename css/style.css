@@ -26,6 +26,11 @@ body{
     border-radius: 2rem;
 }
 
+.excellent-material span{
+    font-weight: 700;
+    color: black;
+}
+
 .section-recent-blog a{
     text-decoration: underline;
 }
@@ -48,8 +53,18 @@ span{
     color: gray;
 }
 
-h6{
+.section-chair-small h6{
     font-weight: 700;
+}
+
+
+.section-chair-small img{
+    background-color:rgb(240, 237, 237) ;
+    border-radius: 2.5rem;
+}
+
+.footer-2 a{
+    line-height: 2.3rem;
 }
 
 .icon-footer i{
@@ -57,7 +72,9 @@ h6{
     background-color: rgb(229, 226, 226);
     border-radius: 50%;
     margin-right: 0.5rem;
+    color: #3b5d50;
 }
+
 .test-icon{
     background: black;
     color: white;
@@ -81,4 +98,13 @@ h6{
     height: 5px;
     width: 5px;
     border-radius: 50%;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    height: 12px;
+    width: 12px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+opacity: 1;
 }
